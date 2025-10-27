@@ -34,7 +34,7 @@ public class Varios {
         System.out.printf(" Tu capital final generado es %.2f", capital);
         System.out.printf(" y tu interés promedio mensual es %.2f", interespromedio);
         // En estos pasos, imprimo formateados a dos decimales los valores de interes, capital final e interes promedio//
-
+        lector.close(); // Cierra el Scanner al terminar.
     }
 }
 
