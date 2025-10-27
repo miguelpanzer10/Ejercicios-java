@@ -13,7 +13,7 @@ public class Varios {
         String nombre = lector.nextLine();
         /* aquí, creo la variable texto nombre y le digo al scanner que
                 lea el dato como un número decimal, con lector.nextLine para que cuente espacios*/
-        System.out.println("Primero, ingresa tu capital inicial y pulsa enter:");
+        System.out.println("Ahora, ingresa tu capital inicial y pulsa enter:");
         double capital = lector.nextDouble();
                 /* aquí, creo la variable decimal capital y le digo al scanner que
                 lea el dato como un número decimal, con lector.nextDouble*/
