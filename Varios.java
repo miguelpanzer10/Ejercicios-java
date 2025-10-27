@@ -1,4 +1,4 @@
-//La fórmula del interés es Interes = (capital * tasa * tiempo) / 100.
+//La fórmula del interés es Interes = (capital * tasa * tiempo) .
 
 import java.util.Scanner;
 // Importo que pueda utilizar scanner, ya que no es una clase fundamental.
@@ -25,7 +25,7 @@ public class Varios {
         System.out.println("Por último, dime el plazo de tiempo en años y pulsa enter:");
         double tiempo = lector.nextDouble();
         //Lo mismo que antes pero con tiempo en años//
-        double interes= (capital*tasareal*tiempo)/100;
+        double interes= (capital*tasareal*tiempo);
         double capitalfinal= interes+capital;
         //Aquí calculo el capital final que tendrás cuando tiene el interés//
         double interespromedio= interes/12;
