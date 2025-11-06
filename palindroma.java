@@ -51,7 +51,10 @@ public class palindroma {
 
             StringBuilder(...): Es la llamada al constructor de la clase StringBuilder.
 
-            (cadenaLimpia): Es el argumento (el dato) que le pasamos al constructor.*/
+            (cadenaLimpia): Es el argumento (el dato) que le pasamos al constructor.
+            "Cuando alguien me llame, debe darme una cadena de texto, y yo la llamaré temporalmente cadenaLimpia dentro de mi código."
+            Cuando se ejecuta esPalindromo(fraseLimpia) en el main, el valor de la variable fraseLimpia (que es "yohagoyogahoy")
+            se copia y se asigna a la variable cadenaLimpia dentro del método esPalindromo*/
 
             // Invierte el StringBuilder y lo convierte de nuevo a String
             String cadenaInvertida = sbuildercadena.reverse().toString();
