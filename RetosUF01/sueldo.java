@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 package RetosUF01;
+=======
 import java.util.Scanner;
 public class sueldo {
     public static void main(String[] args) {
