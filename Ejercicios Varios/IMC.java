@@ -8,7 +8,7 @@ public class IMC {
         String salida;
         /*Declaro la variable que usaré en el bucle para salir, si la declaro dentro,
          el bucle con do-while no sirve porque una vez que acaba ese bucle, ya no tiene la variable*/
-        do { //Creo un bucl11e con do-while//
+        do { //Creo un bucle con do-while//
             System.out.println("Bienvenido al calculador de tu IMC:");
             System.out.println("--------------------------------------------------------");
             System.out.println("Primero, ingresa tu peso en kg por favor y pulsa enter:");
@@ -27,7 +27,7 @@ public class IMC {
             %: Empieza el especificador de formato.
             .1: Indica que se debe redondear y mostrar el número con un solo decimal.
             f: Indica que el argumento que se va a formatear es un número de punto flotante (double o float).
-            imc es el argumento  que quieres que se inserte en la cadena formateado según la regla anterior.
+            imc es el argumento que quieres que se inserte en la cadena formateado según la regla anterior.
             */
 
             //Pasamos a las opciones//
@@ -55,7 +55,7 @@ public class IMC {
             /* Esto es necesario porque cuando combino scanner de números
             y letras, cuando ingresa el número y da enter el carácter
             de "nueva línea" (\n) se queda atascado en la memoria del Scanner (el buffer).
-            Entonces cuano ingreso texto con nextLine() lee inmediatamente ese \n pendiente,
+            Entonces cuando ingreso texto con nextLine() lee inmediatamente ese \n pendiente,
             lo consume (lo quita del buffer) y no le da tiempo al usuario a ingresar "EXIT"*/
             salida = lector.nextLine();
             //le digo al scanner que la variable salida que declare fuera del bucle, la recoja como texto//
